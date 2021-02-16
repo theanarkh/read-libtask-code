@@ -1,7 +1,9 @@
-libtask源码分析，libtask是一个协程库，由google的Russ Cox大佬写的（https://swtch.com/libtask/）。
-之前也分析过一些相关的代码
-1 [理解协程的实现](https://mp.weixin.qq.com/s/Yq-SaG5HJenzpxGyztz8RQ)
-2 [云风coroutine库源码分析](https://mp.weixin.qq.com/s/bOHD8AUdM6WbCN2R0a3p0Q)
+# libtask源码分析，libtask是一个协程库，由google的Russ Cox大佬写的（ https://swtch.com/libtask/ ）。
+# 之前也分析过一些相关的代码
+# 1 [理解协程的实现](https://mp.weixin.qq.com/s/Yq-SaG5HJenzpxGyztz8RQ)
+# 2 [云风coroutine库源码分析](https://mp.weixin.qq.com/s/bOHD8AUdM6WbCN2R0a3p0Q)
+
+# 下面是该库的文档和说明
 
 (Fork addendum: This is a fork of libtask that adds support for epoll()
 and other thing helpful for writing high-performance network servers
