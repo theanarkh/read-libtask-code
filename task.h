@@ -126,9 +126,9 @@ struct Altarray
 // 通信的通道
 struct Channel
 {	
-	// 单个元素大小
-	unsigned int	bufsize;
 	// 元素个数
+	unsigned int	bufsize;
+	// 单个元素大小
 	unsigned int	elemsize;
 	// 存储数据的地址
 	unsigned char	*buf;
